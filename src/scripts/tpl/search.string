@@ -1,0 +1,13 @@
+<div class="m-search">
+  <div>
+    <input type="text" ms-duplex="keyword">
+  </div>
+  <div spa-widget="scroll">
+    <div>
+      <div ms-repeat="searchList">
+        <img ms-src="el.img" />
+        <p ms-html="el.title"></p>
+      </div>
+    </div>
+  </div>
+</div>
